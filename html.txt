@@ -1,0 +1,85 @@
+//div and span 
+div is block level element,just a container,
+span is a inline level element, can be used to sytle a specific part of text
+inline tags - <a/> <em/> <strong/> <img/> <span/> <video/>
+
+block has width of its parent 
+inline has width of its content
+
+block starts on new line 
+inline starts within the same line - we can give height and width on inline
+replaced inline means source is coming from an url
+
+Cascading Style Sheets
+here cascade is we can give a element its properties by varioud ways like inline css external css, so by combing all this , these cascade together and determine the final style
+
+specifity 
+gives prioty to selectors like id has higher priortiy than class
+
+positioon default value is static 
+when assigned relative it stays in to document flow but we can adjust its positioon using left right top
+and if it has a child element and we give tha absoulte if will positon it self according to its parent 
+
+
+when we give display flex to a parent all its child becomes display BLOCK
+
+default box-sizing:contentBox
+it ads up border padding into its width(100+15+8)
+in border box all of that is included within the width
+
+
+
+-------------- JS -----------------------
+
+number 
+symbol - always gives a unique value
+string
+boolean
+undefined
+null
+object-non primitve
+    arry is a speacial type of object
+
+
+
+var is a function scope variable
+let is block scope
+
+parameters are pass when we declare a function 
+and argument are thoose when we call that function the we pass there is arguments
+
+.slice and .splice in array 
+slice makes a new array ( startindex ,to element before last index  )
+
+splice modifies the original array 
+splice(startindex se new values de do)
+
+
+dom (Document Object Model) it is tree like mode where every node represents a elemnt 
+dom allows js to dynamically access and manipte data and style of a web page 
+
+
+-------- REACT --------
+
+react is declarative and js impretive
+         declarative mainly focuses on what should be done not how how it should be done 
+         and in impretive it focuses on how it should be done 
+
+react makes development faster 
+it is performant 
+if follows companet based architecture 
+it has virtual dom whcih is copy of actual dom, so it identify and update the parts which are changed rather than rerendring the whole UI 
+it has unidirectional flow , means data can flow from parent to child 
+with react we can create cross platform application for example react native for apps, and electron for desktop apps 
+
+
+state in react 
+    each component have its own state 
+    states are mutable(means they can changed) 
+    it helps in lifecycle methods when companet mounts or unmounts it performs actions according to the state
+    and it is local to a component it can not be accessed from outside directly
+
+
+
+async will go to callback queue
+and promise will go to micro-task queue and promise is given more priority

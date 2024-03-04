@@ -1,0 +1,5 @@
+- reconcilation
+- react fiber 
+- how to componets renders
+- diffing algorithm 
+- how render works?

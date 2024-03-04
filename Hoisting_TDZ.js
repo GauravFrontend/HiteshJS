@@ -1,5 +1,5 @@
 // let and const are in the temporal dead zone ( TDZ )
-// the time between hosted and intilzed that is called temporal dead zone 
+// the time between hoisted and intilzed that is called temporal dead zone 
 // hoisting
 //we can access var before even intilizing it 
 // memory is acclocated to these varibles and functions before any line of code - undifined

@@ -1,0 +1,5 @@
+// react router dom - very famous library
+- how to manage protected routes
+- role based access control (RBAC)
+- query params
+- Dynamic routing

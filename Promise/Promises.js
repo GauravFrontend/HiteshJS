@@ -1,5 +1,8 @@
+// promises in js is an object which represent completion or failure of async opertaions, i helps to avoid callbak hell( nested callback functions )
+
 //promises create or consume hote hai , 2 parts hote hai isme
 //below is creation of promises
+
 const promiseOne = new Promise((resolve, reject) => {
     //do an async task
     //db calls, network calls 

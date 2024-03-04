@@ -9,3 +9,5 @@ const obj = {name:"hee",age:33}
 arr.__proto__
 obj.__proto__
 arr.proptotype//it is same as above
+
+
